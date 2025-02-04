@@ -1,0 +1,62 @@
+/* Basic page styling */
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background: #f4f4f4;
+
+}
+
+/* Input field styling */
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Add button styling (SlateBlue) */
+button {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: slateblue;
+    color: white;
+}
+
+/* Delete button styling (Red) */
+.delete-btn {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    
+}
+
+/* Ensures the task list doesn't stretch across the page */
+ul {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+/* Styles each task item */
+li {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: white;
+    margin: 5px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+/* Adds space between task text and delete button */
+li span {
+    padding-right: 30px;
+}
+
+/* Styles completed tasks with a strikethrough */
+.completed {
+    text-decoration: line-through;
+}
+
