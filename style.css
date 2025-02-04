@@ -3,7 +3,11 @@ body {
     font-family: sans-serif;
     text-align: center;
     background: #f4f4f4;
-
+   background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+   
 }
 
 /* Input field styling */
